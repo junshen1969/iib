@@ -1,4 +1,4 @@
-<project name="IIB-CI-MAIN" default="dev" basedir="..">
+<project name="IIB-CI-MAIN" default="dev" basedir=".">
   <description>IIB Continuous Integration Demo (main script)</description>
 
   <target name="init">
