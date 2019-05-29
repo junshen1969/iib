@@ -35,13 +35,9 @@
       <arg value="${basedir}" />
       <arg value="-b" />
       <arg value="${iib.bar}" />
-      <arg value="-p" />
-      <arg value="TestClient" />
       <arg value="-a" />
       <arg value="HTTPESQLEchoApp" />
       <arg value="HTTPJavaEchoApp" />
-      <arg value="-l" />
-      <arg value="HTTPEchoLib" />
       <arg value="-deployAsSource" />       <!-- we cannot inline artifacts in a shared library -->
     </exec>
 
